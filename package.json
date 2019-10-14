@@ -4,6 +4,7 @@
   "description": "## Topics",
   "main": "knexfile.js",
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "express": "^4.17.1",
     "helmet": "^3.21.1",
     "knex": "^0.19.5",
