@@ -1,0 +1,29 @@
+{
+  "name": "webauth-i-challenge",
+  "version": "1.0.0",
+  "description": "## Topics",
+  "main": "knexfile.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "knex": "^0.19.5",
+    "nodemon": "^1.19.3",
+    "pg": "^7.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosesSupposes/webauth-i-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MosesSupposes/webauth-i-challenge/issues"
+  },
+  "homepage": "https://github.com/MosesSupposes/webauth-i-challenge#readme"
+}
