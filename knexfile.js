@@ -10,11 +10,11 @@ module.exports = {
       max: 10
     },
     migrations: {
-      directory: './data/migrations'
+      directory: './api/data/migrations'
     },
 
     seeds: {
-      directory: './data/seeds'
+      directory: './api/data/seeds'
     }
   },
 
@@ -26,11 +26,11 @@ module.exports = {
       max: 10
     },
     migrations: {
-      directory: './data/migrations'
+      directory: './api/data/migrations'
     },
 
     seeds: {
-      directory: './data/seeds'
+      directory: './api/data/seeds'
     }
   },
 
@@ -42,11 +42,11 @@ module.exports = {
       max: 10
     },
     migrations: {
-      directory: './data/migrations'
+      directory: './api/data/migrations'
     },
 
     seeds: {
-      directory: './data/seeds'
+      directory: './api/data/seeds'
     }
   }
 
