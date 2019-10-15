@@ -8,8 +8,8 @@ import AllUsers from './components/AllUsers'
 function App() {
   return (
     <div className="App">
-      <Route exact path="/" component={AllUsers} />
-      <Route exact path="/login" component={Login} />
+      <Route exact path="/" component={Login} />
+      <Route exact path="/users" component={AllUsers} />
       <Route path="/register" component={Register} />
     </div>
   );
