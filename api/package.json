@@ -5,6 +5,7 @@
   "main": "knexfile.js",
   "dependencies": {
     "bcrypt": "^3.0.6",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^3.21.1",
     "knex": "^0.19.5",
@@ -13,8 +14,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node api/server.js",
-    "dev": "nodemon api/server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
