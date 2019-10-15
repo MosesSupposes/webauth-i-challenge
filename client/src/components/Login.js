@@ -17,10 +17,10 @@ export default function Login(props) {
         axios.post('http://localhost:4000/api/users/login', creds)
             .then(res => {
                 console.log(res)
-                props.history.push('/')
+                props.history.push('/users')
             })
             .catch(err => {
-                console.log('right here', err)
+                console.error(err)
             })
     }
 

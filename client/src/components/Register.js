@@ -17,7 +17,7 @@ export default function Login(props) {
         axios.post('http://localhost:4000/api/users/register', creds)
         .then(res => {
             console.log(res)
-            props.history.push('/login')
+            props.history.push('/') // redirect user to login screen
         })
         .catch(err => {
             console.error(err)
